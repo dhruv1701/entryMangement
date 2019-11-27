@@ -14,7 +14,8 @@ var app=express();
 const API_PORT = process.env.PORT || 3001;
 
 var server=http.createServer(app);
-
+app.use(cors());
+app.options('*',cors());
 app.set('views',path.join(__dirname,'views'));
 app.use('/js', express.static(__dirname + './public/javascript/'));
 app.use('/css', express.static(__dirname + './public/css/'));
