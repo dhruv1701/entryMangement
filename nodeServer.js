@@ -31,7 +31,7 @@ app.use(function(req, res, next) {
 const {entrydocument}=require('./model/entrydocument.js');
 const {dataEntry}=require('./model/database.js');
 
-//mongoose.connect('mongodb://localhost:27017/entrydocument');
+mongoose.connect('mongodb://localhost:27017/entrydocument');
 
 /*app.use(function(req, res, next) {
     var allowedOrigins = "*";
