@@ -68,7 +68,7 @@ app.use(function(req, res, next) {
 
 // const from = 'Nexmo';
 
-app.get("/",(req,res)=>{
+app.get("https://entry-management-innovaicer.herokuapp.com/",(req,res)=>{
     res.render("./public/index.html");
 })
 
