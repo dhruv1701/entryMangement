@@ -67,7 +67,7 @@ var schema=mongoose.Schema({
 });
 
 //indexed on guest's phone number and then on guest's email id
-schema.index({vphno: 1,vemail : 1},{unique: true});
+schema.index({vphno: 1,vemail : 1,checkin : 1},{unique: true});
 
 var dataEntry=mongoose.model('dataEntry', schema);
 module.exports={
