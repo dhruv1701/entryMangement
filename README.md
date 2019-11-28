@@ -1,7 +1,8 @@
 # entryMangement
 Entry Management Software for any office built using NodeJs
 
-database entrydocument model : is to save the data of guest's who havent checked out yet
+database entrydocument model : is to save the data of guest's who havent checked out yet.
+
 database dataEntry model : is to save data for future reference if needed.
 
 INDEX page
