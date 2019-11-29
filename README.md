@@ -16,6 +16,23 @@ When guest check's out of the office he agains enters his information (name, ema
 Then a post request is made to server from checkout.hbs to check if the data provided is present in the database model entrydocument.
 If present then removes this document from database entrydocument model and saves the complete details of guest's visit in database dataEntry model for future refrence and sends guest an email and sms providing him the details of his visit (his name,his email, his phone number,his checkin time, his checkout time,office address visited,host's name, host's email, host's phone number).
 
+TO USE THE APPLICATION
+
+Clone the repository
+
+Install all npm node modules
+
+`npm i`
+
+Start the mongoDB server
+
+Start node.js server
+
+`npm start`
+
+Your application is active
+
+
 INDEX page image
 https://github.com/dhruv1701/entryMangement/blob/master/index.JPG
 
